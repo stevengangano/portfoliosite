@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="UTF-8">
+
+	<!-- CSS -->
+	<link rel = "stylesheet" href="css/main.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+	<h1 class="title">HOROSCOPES </h1>
+		<div class="row">
+			<div class="col-md-6 icon-group">
+				
+				<div class="cool-hover" id="Pisces"><a href="#" onclick="getHoro(1)"><img class="horoIcon" src="http://s13.postimg.org/bai43mjdz/pis.png"></a><br></div>
+				<div class="cool-hover" id="Aquarius"><a href="#"onclick="getHoro(2)"><img class="horoIcon" src="http://s13.postimg.org/8k8s6fmp3/aqu.png"></a></div>
+				<div class="cool-hover" id="Capricorn"><a href="#"onclick="getHoro(3)"><img class="horoIcon" src="http://s13.postimg.org/kd6lanj53/cap.png"></a></div>
+				<div class="cool-hover" id="sagittarius"><a href="#" onclick="getHoro(4)"><img class="horoIcon" src="http://s13.postimg.org/osp0fwvjb/sag.png"></a></div><br>
+				<div class="cool-hover" id="scorpio"><a href="#"onclick="getHoro(5)"><img class="horoIcon" src="http://s13.postimg.org/k87feq17r/scorp.png"></a></div>
+				<div class="cool-hover" id="libra"><a href="#"onclick="getHoro(6)"><img class="horoIcon" src="http://s13.postimg.org/jrhmejo2v/libra.png"></a></div>
+				<div class="cool-hover" id="virgo"><a href="#"onclick="getHoro(7)"><img class="horoIcon" src="http://s13.postimg.org/m2k9wgo87/virgo.png"></a></div>
+				<div class="cool-hover" id="leo"><a href="#"onclick="getHoro(8)"><img class="horoIcon" src="http://s13.postimg.org/pd41ilorr/leo.png"></a></div><br>
+				<div class="cool-hover" id="cancer"><a href="#"onclick="getHoro(9)"><img class="horoIcon" src="http://i67.tinypic.com/1zvx4q0.png"></a></div>
+				<div class="cool-hover" id="gemini"><a href="#"onclick="getHoro(10)"><img class="horoIcon" src="http://s13.postimg.org/cj5zp9bc3/gem.png"></a></div>
+				<div class="cool-hover" id="taurus"><a href="#"onclick="getHoro(11)"><img class="horoIcon" src="http://s13.postimg.org/gpvfic0br/taurus.png"></a></div>
+				<div class="cool-hover" id="aries"><a href="#"onclick="getHoro(12)"><img class="horoIcon" src="http://s13.postimg.org/u7xqgvn3b/aries.png"></a></div>
+		</div>
+
+		<div class="col-md-6 horoscope-content">
+			<h1 id="zodiac"></h2>
+			<p id="fortune"></p>
+		</div>
+
+	</div>
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Jquery -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Javascript -->
+ <script src="js/bootstrap.js"></script>
+ 
+<script type="text/javascript" src="js/main.js"></script> 
+
+</body>
+</html>

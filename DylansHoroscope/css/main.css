@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+	background-color: #f1f1f1;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+	letter-spacing: 1.2em;
+}
+
+
+.horoIcon {
+	height: 120px;
+	width: 120px;
+	margin: 20px 15px 20px 15px;
+	padding: 5px;
+}
+
+.cool-hover {
+	display: inline-block;
+	background-image: linear-gradient(to right, transparent 50%, #7313D3 50%);
+	background-size: 200%;
+	transition: all 0.4s;
+}
+
+.cool-hover:hover {
+	background-position: -100%;
+}
+
+
+.icon-group{
+	position: relative;
+	left: 20px;
+	top: 30px;
+	
+}
+
+.horoscope-content {
+	padding: 50px;
+	line-height: 180%;
+	font-size: 22px;
+}
+
+.icon-group p {
+	position: relative;
+	left: 15px;
+}
